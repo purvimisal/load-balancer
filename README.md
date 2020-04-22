@@ -21,3 +21,9 @@ bash-3.2$ program A:3 B:2 C:4 D:4 E:1
 C  
 bash-3.2$ program X:3 Y:1 Z:3  
 X  
+
+## My Solution  
+loadbal.py  
+
+To be run as:  
+loadbal.py [ server_name:server_size ]  
