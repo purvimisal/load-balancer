@@ -27,3 +27,10 @@ loadbal.py
 
 To be run as:  
 loadbal.py [ server_name:server_size ]  
+
+This program creates 3 helper files for storing internal states of the program:  
+<summary>servers.config -----------> This file stores the original config provided by the user</summary>  
+<summary>prev.state------------------> This file stores the server that received previous/last task</summary>  
+<summary>{Given Servers}.trans----> These files stores current backlog tasks for each server (Number of .trans files =  number of servers provided by user)</summary>  
+
+
